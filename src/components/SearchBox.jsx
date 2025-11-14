@@ -11,13 +11,13 @@ const SearchBox = ({ links = [] }) => {
     const dropdownRef = useRef(null)
     const resultsListRef = useRef(null)
 
-    // Scroll selected item into view
+
     const scrollToSelected = (index) => {
         if (resultsListRef.current && index >= 0) {
             const selectedElement = resultsListRef.current.children[index]
 
             if (selectedElement) {
-                // Use scrollIntoView with 'nearest' to only scroll when needed
+
                 selectedElement.scrollIntoView({
                     block: 'nearest',
                     behavior: 'smooth'
@@ -26,7 +26,7 @@ const SearchBox = ({ links = [] }) => {
         }
     }
 
-    // Filter links based on search term
+
     useEffect(() => {
         if (searchTerm.length > 0) {
             const filtered = links.filter(link =>
