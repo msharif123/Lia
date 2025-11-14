@@ -139,6 +139,7 @@
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -148,9 +149,10 @@
 /* Responsive design */
 @media (max-width: 640px) {
   .search-input {
-    font-size: 16px; /* Prevents zoom on iOS */
+    font-size: 16px;
+    /* Prevents zoom on iOS */
   }
-  
+
   .search-dropdown {
     max-height: 300px;
   }

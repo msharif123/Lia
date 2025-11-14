@@ -123,7 +123,7 @@
   .help-sidebar {
     width: 280px;
   }
-  
+
   .help-content {
     margin-left: 280px;
     padding: 2rem;
@@ -134,7 +134,7 @@
   .help-page {
     flex-direction: column;
   }
-  
+
   .help-sidebar {
     width: 100%;
     position: static;
@@ -143,12 +143,12 @@
     border-bottom: 1px solid #e1e5e9;
     padding: 1.5rem;
   }
-  
+
   .help-content {
     margin-left: 0;
     padding: 1.5rem;
   }
-  
+
   .content-header h1 {
     font-size: 2rem;
   }
@@ -158,15 +158,15 @@
   .help-sidebar {
     padding: 1rem;
   }
-  
+
   .help-content {
     padding: 1rem;
   }
-  
+
   .content-header h1 {
     font-size: 1.75rem;
   }
-  
+
   .help-section {
     padding: 1.5rem;
   }
